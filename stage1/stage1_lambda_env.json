@@ -1,0 +1,22 @@
+{
+    "BUCKET_NAME": "chx-aws-org-datalake-s3bucket-cdrive1",
+    "AWS_REGION_PARAM": "us-west-2",
+    "SYSTEMNAME": "orgdatalake",
+    "PROJECT_TAG": "CHX-AWSMultiOrgDataLake-IT-8883",
+    "CLASSIFICATION": "PHI",
+    "BOOTSTRAP": "True",
+    "DEFAULT_RECORD": "contacts",
+    "ENABLE_METRICS": "true",
+    "LOG_LEVEL": "INFO",
+    "METRIC_NAMESPACE": "CHX/DataLake/Provisioning",
+    "KMS_KEY_ID": "arn:aws:kms:us-west-2:666669385478:key/mrk-aea21ffa2323497ea7839adcb6fb0b71",
+    "SSM_ENABLE_TAGGING": "true",
+    "SSM_OVERWRITE": "true",
+    "FAIL_FAST": "false",
+    "DRY_RUN": "false",
+    "TAGS_ENVIRONMENT": "DEV",
+    "RETENTION_DAYS": "90",
+    "METRIC_DIMENSION_1": "Component",
+    "METRIC_DIMENSION_1_VALUE": "PrefixBootstrap"
+  }
+  
